@@ -1,13 +1,13 @@
 cask "pdf-tools" do
-  version "1.0.0"
+  version "1.1.0"
 
   on_arm do
-    sha256 "a15c1c9adcd2799a3e8fe3f6e5e7b43a198a931cb827ede70126c770136a5f83"
+    sha256 "538ba3fc2d790f0684454a28f582110a59a60d67000f4063359789f972aea758"
 
     url "https://github.com/pravinbashyal/pdf-tools/releases/download/v#{version}/PDF.Tools-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "af5eae0b450d754d4fca23ce4035d2738ee784631a62ff718278a81f8cbd766f"
+    sha256 "6ec5760297fa0b1a0589204ba857c3ecce82fd3f8a0c0b57bf90df65808043c8"
 
     url "https://github.com/pravinbashyal/pdf-tools/releases/download/v#{version}/PDF.Tools-#{version}-x64.dmg"
   end
